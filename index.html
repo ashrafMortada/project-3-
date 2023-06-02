@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science.Com</title>
+
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+
+</head>
+<body> 
+
+  <nav class="navbar navbar-expand-lg  bg-light fixed-top" style="opacity:0.7">
+    <a class="navbar-brand" href="#"><h4 class="text-dark">Science <sup>.com</sup></h4></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+        <a class="nav-link" href="#"> <strong>Home</strong></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">  <strong> Contact Us </strong> </a>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <strong>courses</strong> 
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Chemistry</a>
+            <a class="dropdown-item" href="#">Physics</a>
+            <a class="dropdown-item" href="#">Geology</a>
+            <a class="dropdown-item" href="#">Biology</a>
+            <a class="dropdown-item" href="#">Astronomy</a>
+                      
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Medical Physics</a>
+            <a class="dropdown-item" href="#">Biotechnology</a>
+            <a class="dropdown-item" href="#">Petroleum Chemistry</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info m-2 " type="submit">Search</button> &nbsp;
+        <button class="btn btn-outline-info m-2 " type="submit">Log In</button>
+      </form>
+    </div>
+  </nav>  
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+    </ul>
+  
+ 
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images-3/Physics.jpg" height="400px" class="d-block w-100" alt="Physics">
+        <div class="carousel-caption">
+          <h2 class="text-dark">Physics</h2>
+          <a href class="btn btn-primary" target="_blank">Start Learning</a>
+          </div>
+        </div>
+
+     
+        
+      
+        <div class="carousel-item">
+          <img src="Images-3/chemistry.jpg" height="400px" class="d-block w-100" alt="Chemistry">
+          <div class="carousel-caption ">
+            <h2 class="text-warning">Chemistry</h2>
+            <a href class="btn btn-primary" target="_blank">Start Learning</a>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="Images-3/in-planets_1_0.webp" height="400px" class="d-block w-100" alt="Astronomy">
+        <div class="carousel-caption ">
+          <h2 class="text-primary">Astronomy</h2>
+          <a href class="btn btn-primary" target="_blank">Start Learning</a>
+          </div>
+        </div>
+
+
+      <div class="carousel-item">
+        <img src="Images-3/quatrz.jpg" height="400px" class="d-block w-100" alt="Geology">
+        <div class="carousel-caption">
+          <h2 class="text-info">Geology</h2>
+          <a href class="btn btn-primary" target="_blank">Start Learning</a>
+          </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <img src="Images-3/Biology1.avif" height="400px" class="d-block w-100" alt="Biology">
+        <div class="carousel-caption">
+          <h2 class="text-dark">Biology</h2>
+          <a href class="btn btn-primary" target="_blank">Start Learning</a>
+          </div>
+      </div>
+    </div> <!-- /carousel-inner -->
+    
+  
+   
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
+<!-- ////////////////////////////////////////////////////// -->
+
+<div class="jumbotron bg-primary">
+    <h1>Awesome science</h1>
+    <p>Here is the most fantastic site for learing Chemistry, Phisics, Geology, Biology ...</p>
+    <button type="button" class="btn btn-light">Learn More</button>
+</div>
+<hr>
+<h1 class="container-fluid bg-primary text-light p-4 text-center ">Free Science Courses</h1>
+
+<!-- ///////////////////////////////////////////////////// -->
+
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+        Chemistry Courses
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+      <div class="card-body">
+        Learn Chemistry with online Chemistry courses. Take courses from the world's best instructors and universities.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        Physics Courses
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Awesome Physics Experiments for Kids: 40 Fun Science Projects and How They Work 
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+        Geology Courses
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Geology is considered awesome by many people because it deals with the study of the Earth and its processes
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<hr class="bg-dark">
+<h1 class="container-fluid bg-info text-light p-4 text-center ">Chemistry Lectures</h1>
+<div class="jumbotron bg-primary">
+ <a href="#"><h2 class="text-light">Atomic Structure</h2></a> 
+   <p> Atoms are the smallest particle of an element that can exist, and can be regarded as the building blocks of everything. Atoms can combine to form molecules. Molecules are the smallest particle of either an element or a compound that can exist independently.</p>.
+  <button type="button" class="btn btn-lg btn-outline-light">Learn More</button>
+  
+</div>
+
+<hr class="bg-dark">
+<h1 class="container-fluid bg-info text-light p-4 text-center ">Physics Lectures</h1>
+<div class="jumbotron bg-primary">
+ <a href="#"><h2 class="text-light">Introduction to Physics</h2></a> 
+   <p>
+    Physics is the study of the basic laws that govern matter.</p>.
+  <button type="button" class="btn btn-lg btn-outline-light">Learn More</button>
+  
+</div>
+
+<hr class="bg-dark">
+<h1 class="container-fluid bg-info text-light p-4 text-center ">Biology Lectures</h1>
+<div class="jumbotron bg-primary">
+ <a href="#"><h2 class="text-light">Biology: The Science of Life</h2></a> 
+   <p>The aim of biology is to explain the living world in terms of scientific principles. Aristotle, the great Greek philosopher and teacher, is known as the father of biology and the French naturalist, Jean Baptiste-de Lamarck, was the first to used the word ‘biology’ in 1800.</p>.
+  <button type="button" class="btn btn-lg btn-outline-light">Learn More</button>
+  
+</div>
+
+<hr class="bg-dark">
+<h1 class="container-fluid bg-info text-light p-4 text-center ">Geology Lectures</h1>
+<div class="jumbotron bg-primary">
+ <a href="#"><h2 class="text-light">Rocks and Their Classification</h2></a> 
+   <p>Geologists recognize three major groups of rock, and they differ by the processes by which they're formed</p>.
+  <button type="button" class="btn btn-lg btn-outline-light">Learn More</button>
+  
+</div>
+
+<!-- ////////////////////////////////////////////////////// -->
+<div class="image1"></div>
+<!-- ////////////////////////////////////////////////////// -->
+
+<h1 class="container-fluid bg-secondary text-light p-4 text-center "> Awesome Categories </h1>
+<!-- ////////////////////////////////////////////////////// -->
+<hr>
+<div class="cintainer-fluid bg-secondary">
+  <div class="row justify-content-center pb-4">
+    <div class="card bg-info col-lg-3 col-md-4 col-sm-6 m-2">
+    <a href target="_blank">
+      <img src="Images-3/amazing-facts.jpg" style="height:350px" class="card-img-top"alt="">
+    </a>
+    <div class="card-body text-align-right">
+      <h4 class="card-title">Physics</h4>
+      <p class="card-text">Physical Amazing Facts </p>
+      <a href class="btn btn-outline-light">Read More</a>
+    </div>
+  </div>
+
+  <div class="card bg-info col-lg-3 col-md-4 col-sm-6 m-2">
+    <a href target="_blank">
+      <img src="Images-3/solarsolar-system.webp" style="height:350px"  class="card-img-top"alt="">
+    </a>
+    <div class="card-body text-align-right">
+      <h4 class="card-title">Astronomy</h4>
+      <p class="card-text">Black holes: Everything you need to know</p>
+      <a href class="btn btn-outline-light">Read More</a>
+    </div>
+  </div>
+  <div class="card bg-info col-lg-3 col-md-4 col-sm-6 m-2">
+    <a href target="_blank">
+      <img src="Images-3/formulas.jpg" style="height:350px" class="card-img-top"alt="">
+    </a>
+    <div class="card-body text-align-right">
+      <h4 class="card-title">Chemistry</h4>
+      <p class="card-text">More topics in chemistry</p>
+      <a href class="btn btn-outline-light">Read More</a>
+    </div>
+  </div>
+  <div class="card bg-info col-lg-3 col-md-4 col-sm-6 m-2">
+    <a href target="_blank">
+      <img src="Images-3/DNA-full-450x600.avif" style="height:350px" class="card-img-top"alt="">
+    </a>
+    <div class="card-body text-align-right">
+      <h4 class="card-title">Biology</h4>
+      <p class="card-text">living organisms and their vital processes</p>
+      <a href class="btn btn-outline-light">Read More</a>
+    </div>
+  </div>
+  <div class="card bg-info col-lg-3 col-md-4 col-sm-6 m-2">
+    <a href target="_blank">
+      <img src="Images-3/fossils.webp" style="height:350px" class="card-img-top"alt="">
+    </a>
+    <div class="card-body text-align-right">
+      <h4 class="card-title">Paleontology</h4>
+      <p class="card-text">the study of ancient life</p>
+      <a href class="btn btn-outline-light">Read more</a>
+    </div>
+  </div>
+  <div class="card bg-info col-lg-3 col-md-4 col-sm-6 m-2">
+    <a href target="_blank">
+      <img src="Images-3/orange minerals.jpg" style="height:350px" class="card-img-top"alt="">
+    </a>
+    <div class="card-body text-align-right">
+      <h4 class="card-title">Mineralogy</h4>
+      <p class="card-text">the systematic of minerals</p>
+      <a href class="btn btn-outline-light">Read More</a>
+    </div>
+  </div>
+  <div class="card bg-info col-lg-3 col-md-4 col-sm-6 m-4">
+    <a href target="_blank">
+      <img src="Images-3/Computer Science Degree A Closer Look.jpg" style="height:350px"class="card-img-top"alt="">
+    </a>
+    <div class="card-body text-align-right">
+      <h4 class="card-title">Computer Science</h4>
+      <p class="card-text"> The study of computational systems</p>
+    </div>
+    <div class="btn text-center"><a href class="btn btn-outline-light">Read more</a></div>
+      
+    
+  </div>
+</div>
+</div>
+<!-- ////////////////////////////////////////////////////// -->
+<div class="image2"></div>
+<!-- ///////////////////////////////////////////////////// -->
+<hr>
+<div class="container-fluid bg-info">
+  <hr class="my-4"> 
+<h2 class="text-dark text-center p-4"><u> Thanks for</u></h2>
+  <div class="row justify-content-center pb-4">
+
+<div class="card bg-dark col-lg-3 col-md-4 col-sm-6 m-4">
+  <a href target="_blank">
+    <img src="Images-3/Brian_Cox_OBE_FRS_(cropped).jpg" style="height:300px" class="card-img-top"alt="">
+  </a>
+  <div class="card-body text-align-right text-light">
+    <h3 class="card-title">Brian Cox</h3>
+    <p>Physicist</p>
+  </div>
+</div>
+
+
+<div class="card bg-dark col-lg-3 col-md-4 col-sm-6 m-4">
+  <a href target="_blank">
+    <img src="Images-3/Neil-deGrasse-Tyson.webp" style="height:300px" class="card-img-top"alt="">
+  </a>
+  <div class="card-body text-align-right text-light">
+    <h3 class="card-title">Neil DeGrasse Tyson</h3>
+    <p>Astrophysicist</p>
+  
+  </div>
+</div>
+
+
+<div class="card bg-dark col-lg-3 col-md-4 col-sm-6 m-4">
+  <a href target="_blank">
+    <img src="Images-3/koehler-rich-geol-profile.jpg" style="height:300px" class="card-img-top"alt="">
+  </a>
+  <div class="card-body text-align-right text-light">
+    <h3 class="card-title">Rich D. Koehler</h3>
+    <p>Geologist</p>
+  
+  </div>
+</div>
+
+  </div>
+</div>
+<hr class="my-4"> 
+<!-- ////////////////////////////////////////////////////// -->
+<div class="container-fluid">
+  <h2 class="text-center" style="font-size: 36px;">Join Us</h2>
+  <div class="row justify-content-center text-light mt-6">
+    <div class="card bg-dark col-lg-2 col-md-3 col-sm-6 text-center m-3">
+     <div class="card-body text-light d-flex flex-column text-center">
+      <h5 class="card-title mb-4">Videos</h5>
+      <a href="#"><i class='fab fa-facebook-square text-light' style='font-size:36px'></i></a>
+      <h5 class="text-center"> <a href="#">Go to link</a></h5>
+    </div>
+    </div>
+    <div class="card bg-dark col-lg-2 col-md-3 col-sm-6 text-center m-3">
+      <div class="card-body text-light d-flex flex-column text-center">
+       <h5 class="card-title mb-4">Pictures</h5>
+       <a href="#"><i class='fab fa-facebook-square  text-light' style='font-size:36px'></i></a>
+       <h5 class="text-center"> <a href="#">Go to link</a></h5>
+     </div>
+     </div>
+     <div class="card bg-dark col-lg-2 col-md-3 col-sm-6 text-center m-3">
+      <div class="card-body text-light d-flex flex-column text-center">
+       <h5 class="card-title mb-4">Links</h5>
+       <a href="#"><i class='fab fa-facebook-square  text-light' style='font-size:36px'></i></a>
+       <h5 class="text-center"> <a href="#">Go to link</a></h5>
+     </div>
+     </div>
+     <div class="card bg-dark col-lg-2 col-md-3 col-sm-6 text-center m-3">
+      <div class="card-body text-light d-flex flex-column text-center">
+       <h5 class="card-title mb-4">More</h5>
+       <a href="#"><i class='fab fa-facebook-square  text-light' style='font-size:36px'></i></a>
+       <h5 class="text-center"> <a href="#">Go to link</a></h5>
+     </div>
+     </div>
+
+  </div>
+</div>
+<!-- ////////////////////////////////////////////////////// -->
+
+<footer class="bg-dark text-light mt-2 p-3 pb-5">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <hr class="border-top my-4">
+        <h5> <i class="	fa fa-paperclip" style="font-size:24px"></i>&nbsp; About Science <sup>.com</sup></h5>
+        <hr class="border-top my-4">
+        <p>About us</p>
+        <p>Contact us</p>
+        <p>e-mail</p>
+        
+      </div> <!-- /col-md-4 -->
+      <div class="col-md-4">
+        <hr class="border-top my-4">
+        <h5> <i class="fa fa-paperclip" style="font-size:24px"></i> Discover content</h5>
+        <hr class="border-top my-4">
+        <p>Articles by subject</p>
+        <p>Journals A-Z</p>
+        <p>Science <sup>.com</sup> Index</p>
+      </div> <!-- /col-md-4 -->
+      <div class="col-md-4">
+        <hr class="border-top my-4">
+        <h5> <i class="fa fa-paperclip" style='font-size:24px'></i> Publishing policies</h5>
+        <hr class="border-top my-4">
+        <p>Science <sup>.com</sup> policies</p>
+        <p>Open access</p>
+      </div> <!-- /col-md-4 -->
+    </div> <!-- /row text-center -->
+  </div> <!-- /container-fluid -->
+  <hr class="bg-light">
+
+ <div class="container" class="row">
+  <h2>Let's talk</h2>
+  <p class="d-flex">Is there any suggestions ? We’d love to discuss it.</p>
+ </div>
+  
+ <h2 class="text-center"><a href target="_blank"> <strong>Science <sup>.com</sup></strong></a></h2>
+  <form class="text-center m-4">
+    <button class="btn btn-outline-light border col-sm-2"> Sign Up</button>&nbsp;
+    <button class="btn btn-outline-light border col-sm-2"> Log In</button>&nbsp;
+  </form>
+  <div class="container text-center" class="row">
+    <p class="mt-5"> <strong>Follow Us</strong></p>
+     <a href="#"><i class='fab fa-google-plus-g' style='font-size:24px; color:white'></i></a>&nbsp;
+     <a href="#"><i class='fab fa-whatsapp' style='font-size:24px; color:white'></i></a>&nbsp;
+     <a href="#"><i class='fab fa-facebook-f' style='font-size:24px; color:white'></i></a>&nbsp;
+     <a href="#"><i class='fab fa-twitter' style='font-size:24px; color:white'></i></a>&nbsp;
+     <a href="#"><i class='fab fa-instagram' style='font-size:24px; color:white'></i></a>&nbsp;
+     <a href="#"><i class='fab fa-youtube' style='font-size:24px; color:white'></i></a>&nbsp;
+     <a href="#"><i class='	fab fa-linkedin-in' style='font-size:24px; color:white'></i></a>&nbsp;   
+        
+  </div>
+<hr class="bg-light">
+<p  class="bg-dark m-4 text-center text-light">Copyright © 2023 <a href target="_blank"> <strong>Science <sup>.com</sup></strong></a> All rights</p>
+<hr class="bg-light">
+
+</footer>
+<!-- ////////////////////////////////////////////////////// -->
+
+
+
+    <!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
